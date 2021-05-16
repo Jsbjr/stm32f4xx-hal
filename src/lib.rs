@@ -200,6 +200,8 @@ pub mod dwt;
     )
 ))]
 pub mod fsmc_lcd;
+#[cfg(feature = "stm32f469")]
+pub mod fmc;
 #[cfg(feature = "device-selected")]
 pub mod prelude;
 #[cfg(feature = "device-selected")]

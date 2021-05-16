@@ -41,6 +41,7 @@ cast = { default-features = false, version = "0.2.2" }
 void = { default-features = false, version = "1.0.2" }
 embedded-hal = { features = ["unproven"], version = "0.2.3" }
 display-interface = { version = "0.4.0", optional = true }
+stm32-fmc = "0.2.2"
 
 [dependencies.stm32_i2s_v12x]
 version = "0.2.0"
