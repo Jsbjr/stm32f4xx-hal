@@ -122,7 +122,6 @@ macro_rules! pins {
     }
 }
 
-
 pins! {
     FMC:
         A0: [ PF0<Alternate<AF12>> ]
@@ -187,4 +186,3 @@ pins! {
         SDNRAS:[ PF11<Alternate<AF12>> ]
         SDNWE: [ PC0<Alternate<AF12>> ]
 }
-

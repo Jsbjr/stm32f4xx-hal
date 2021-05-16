@@ -180,6 +180,8 @@ pub use stm32 as pac;
 pub mod dma;
 #[cfg(feature = "device-selected")]
 pub mod dwt;
+#[cfg(feature = "stm32f469")]
+pub mod fmc;
 #[cfg(all(
     feature = "fsmc_lcd",
     any(
@@ -200,8 +202,6 @@ pub mod dwt;
     )
 ))]
 pub mod fsmc_lcd;
-#[cfg(feature = "stm32f469")]
-pub mod fmc;
 #[cfg(feature = "device-selected")]
 pub mod prelude;
 #[cfg(feature = "device-selected")]
